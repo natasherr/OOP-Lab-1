@@ -1,18 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         
-        // e. Create an instance of class Sedan in its main method.
+        // an instance of class Sedan
         Sedan mySedan = new Sedan("Toyota Camry", "Silver");
-
-        System.out.println("--- Testing Sedan Actions ---");
         
-        // Demonstrate method OVERRIDING (calls the standard no-parameter version)
+        // Demonstrating method OVERRIDING
         mySedan.accelerate(); 
         
-        // Demonstrate method OVERLOADING (calls the version that takes an integer)
+        // Demonstrating method OVERLOADING
         mySedan.accelerate(120); 
 
-        // Testing the other methods just to be sure it works
+        // Testing the other methods
         mySedan.stop();
         mySedan.gas();
         mySedan.turnOnRadio();
