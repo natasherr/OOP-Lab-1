@@ -6,16 +6,16 @@ public class Motorcycle extends Vehicle {
 
     @Override
     public void accelerate() {
-        System.out.println("The motorcycle accelerates very quickly.");
+        System.out.println("The motorcycle accelerates very quickly vrooom.");
     }
 
     @Override
     public void stop() {
-        System.out.println("The motorcycle squeezes the hand brake to stop.");
+        System.out.println("The motorcycle uses the hand brake to stop.");
     }
 
     @Override
     public void gas() {
-        System.out.println("The motorcycle fills its small tank with premium gas.");
+        System.out.println("The motorcycle only uses premium gas.");
     }
 }
