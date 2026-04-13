@@ -4,10 +4,10 @@ public class Main {
         // an instance of class Sedan
         Sedan mySedan = new Sedan("Toyota Camry", "Silver");
         
-        // Demonstrating method OVERRIDING
+        // Demonstrating method overriding
         mySedan.accelerate(); 
         
-        // Demonstrating method OVERLOADING
+        // Demonstrating method overloading
         mySedan.accelerate(120); 
 
         // Testing the other methods
