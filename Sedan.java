@@ -4,13 +4,13 @@ public class Sedan extends Vehicle implements Automobile {
         super(brand, color);
     }
 
-    // --- Methods from Vehicle ---
+    // Methods from Vehicle
     @Override
     public void accelerate() {
         System.out.println("The Sedan accelerates smoothly.");
     }
 
-    // OVERLOADED method for Part E
+    // the overloaded method
     public void accelerate(int targetSpeed) {
         System.out.println("The Sedan accelerates aggressively to " + targetSpeed + " km/h!");
     }
@@ -25,7 +25,7 @@ public class Sedan extends Vehicle implements Automobile {
         System.out.println("The Sedan fills up with unleaded petrol.");
     }
 
-    // --- Methods from Automobile Interface ---
+    // Methods from the Automobile Interface
     @Override
     public void turnOnRadio() {
         System.out.println("Sedan radio is playing your favorite station.");
